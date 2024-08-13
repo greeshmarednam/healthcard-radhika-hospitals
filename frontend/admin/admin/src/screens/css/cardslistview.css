@@ -1,0 +1,26 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: self-start;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+.sidenav_card {
+  display: flex;
+  flex-direction: row;
+  align-items: self-start;
+  justify-content: flex-start;
+  gap: 2%;
+  margin-bottom: 1%;
+}
+@media (max-width: 500px) {
+  .cards {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .sidenav_card {
+    justify-content: center;
+    width: 100%;
+  }
+}

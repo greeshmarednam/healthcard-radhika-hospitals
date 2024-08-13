@@ -1,0 +1,59 @@
+.profilemain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  gap: 20px;
+  background-color: white;
+  border-radius: 6px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  align-self: stretch;
+}
+input,
+select {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #747171;
+}
+label {
+  display: flex;
+  width: 160px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+@media (max-width: 500px) {
+  label {
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .profilemain {
+    width: 85%;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 550px) and (max-width: 800px) {
+  label {
+    justify-content: flex-start;
+    font-size: 14px;
+  }
+  .profilemain {
+    width: 60%;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,123 @@
+.add_card {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  width: 698px;
+  /* height: 85vh; */
+  padding: 10px 20px;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: scroll;
+  margin-top: 1%;
+}
+.uploadpic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 200px;
+}
+.uploadpic img {
+  width: 200px;
+  height: 200px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  padding: 10px 0px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+input,
+select {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #747171;
+}
+label {
+  display: flex;
+  width: 160px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+.save {
+  display: flex;
+  width: 80%;
+  padding: 12px 29px;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+.save button {
+  width: 30%;
+}
+.error_input {
+  border-color: red;
+  color: red;
+}
+.card_number {
+  background-color: white;
+  color: #2ca2ad;
+  font-weight: 800;
+  font-size: 18px;
+}
+@media (max-width: 500px) {
+  .add_card {
+    width: 85%;
+    margin-left: 0px;
+    gap: 10px;
+    margin-top: 1%;
+  }
+  .uploadpic img {
+    width: 150px;
+    height: 150px;
+  }
+  label {
+    width: 100px;
+  }
+  .uploadpic {
+    flex-direction: column;
+    gap: 0;
+    margin-top: 100px;
+  }
+  .form {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 501px) and (max-width: 850px) {
+  .add_card {
+    margin-left: 0;
+    margin-top: 1%;
+  }
+  .form {
+    width: 100%;
+  }
+  .add_card {
+    width: 80%;
+    height: 90vh;
+  }
+  .form-parent {
+    width: 85%;
+    margin-top: 30px;
+  }
+}

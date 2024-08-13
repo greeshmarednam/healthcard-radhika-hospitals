@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@mui/icons-material": "^5.15.14",
+    "@mui/material": "^5.15.14",
+    "aws-sdk": "^2.1583.0",
+    "axios": "^1.6.8",
+    "Buffer": "^0.0.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.22.3",
+    "react-webcam": "^7.2.0",
+    "reactjs-popup": "^2.0.6",
+    "s": "^1.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: "Kodchasan";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+:root {
+  --font-font-family: "Kodchasan", Helvetica;
+  --font-font-size: 16px;
+  --font-font-style: normal;
+  --font-font-weight: 500;
+  --font-letter-spacing: 0px;
+  --font-line-height: normal;
+}

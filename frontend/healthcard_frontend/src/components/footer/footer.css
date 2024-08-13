@@ -1,0 +1,23 @@
+.footer span {
+  color: red;
+  font-weight: 300;
+}
+.footer {
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f9fa;
+  text-align: center;
+  font-size: 12px;
+  background-color: white;
+  color: black;
+  font-family: "Kodchasan";
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  bottom: 0;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  height: 30px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}

@@ -1,0 +1,85 @@
+.toggle {
+  gap: 68px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+.toggle .login {
+  justify-content: center;
+  gap: 10px;
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+.login-input {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  align-items: flex-start;
+  position: relative;
+}
+.btn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.mobile {
+  display: flex;
+  flex-direction: column;
+  height: 125px;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+}
+.mobile_number {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: "Kodchasan-Medium", Helvetica;
+  font-weight: 500;
+  color: #868484;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+input,
+select {
+  position: relative;
+  width: 376px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #747070;
+}
+.cointainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 30px 20px;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  border-color: #e4e4e4;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media (max-width: 500px) {
+  label {
+    justify-content: flex-start;
+  }
+  input {
+    width: 250px;
+  }
+}
+@media (min-width: 550px) and (max-width: 800px) {
+  input {
+    width: 300px;
+  }
+  .login-input {
+    height: 10%;
+  }
+}
