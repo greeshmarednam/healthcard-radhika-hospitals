@@ -141,7 +141,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # MEDIA_URL = "/media/"
 
 
-AWS_ACCESS_KEY_ID = 'AKIATCKAPK6R7UGIAMZJ'
+
 AWS_SECRET_ACCESS_KEY = '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'
 AWS_STORAGE_BUCKET_NAME = 'healthcard-radhikahospitals'
 AWS_DEFAULT_ACL = None
