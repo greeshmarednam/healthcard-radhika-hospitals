@@ -142,11 +142,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 
-AWS_SECRET_ACCESS_KEY = 'SaAK/hWWh+Ln14xjdQ/pBJsfTf4Lre++TZTFA31r'
-AWS_STORAGE_BUCKET_NAME = 'healthcard-radhikahospitals'
-AWS_DEFAULT_ACL = None
-DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-AWS_S3_REGION_NAME = 'ap-south-1'
-# Additional settings
-AWS_QUERYSTRING_AUTH = False
-AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
